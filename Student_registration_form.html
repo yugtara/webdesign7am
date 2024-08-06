@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<title>Student Registration Form</title>
+<style>
+    form {
+        width: 50%;
+        background-color: blueviolet;
+        margin: 5px auto;
+        padding: 40px;
+        border-radius: 5px;
+        border-style: ridge;
+
+    }
+
+
+    form h1 {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    form h1 span {
+        color: black;
+    }
+
+    form label {
+        display: block;
+        margin-bottom: 5px;
+        color: gray;
+    }
+
+    form input {
+        width: 50%;
+        border: 1px solid grey;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    button {
+        display: block;
+        width: 50%;
+        background-color: skyblue;
+        color: white;
+        padding: 10px 30px;
+        border: none;
+        margin-top: 50px;
+    }
+</style>
+
+<body>
+    <form action="" method="get ">
+        <h1>Student Registration form</h1>
+        <label for="First Name">FIRST NAME</label>
+        <input type="First Name" name="First Name" id="Name" required /> <br>
+        <lable for="Last name">LAST NAME</lable>
+        <input type="Last name" name="Last name" id="name" /> <br />
+        <label for="dob">DATE OF BIRTH</label>
+        <input type="month" name="dob" id="dob"> <br />
+        <label for="email">EMAIL ID</label>
+        <input type="email" name="email" id="email" />
+        <br />
+        <label for="mobile number">MOBILE NUMBER</label>
+        <input type="number" name="number" id="number"> <br>
+        <label for="Gender">GENDER</label>
+        <br />
+        <input type="radio" name="gender" id="male" />
+        <lable for="male">Male</lable>
+        <input type="radio" name="gender" id="female" />
+        <lable for="female">Female</lable>
+        <br>
+        <label for="Address">ADDRESS</label>
+        <textarea name="Address" id="Address" rows="7"></textarea> <br>
+
+        <input type="City" name="city" id="City" required />
+        <lable for="City">CITY</lable>
+        <input type="Pin Code" name="Pin Code" id="Code" required /> <br>
+        <lable for="Pin Code">PIN CODE</lable>
+        <input type="State" name="State" id="State" required /> <br>
+        <lable for="State">STATE</lable>
+        <input type="select" name="country" id="country" required /> <br>
+        <lable for="country">COUNTRY</lable> <br>
+
+        <lable for="hobbies">HOBBIES</lable> <br>
+
+        <input type="checkbox" name="Drawing" id="Drawing">
+        <label for="Drawing">Drawing</label> <br>
+        <input type="checkbox" name="Singing" id="Singing">
+        <label for="singing">Singing</label> <br>
+        <input type="checkbox" name="Dancing" id="Dancing">
+        <label for="Dancing">Dancing</label> <br>
+        <input type="checkbox" name="Streching" id="Streching">
+        <label for="Streching">Streching</label>
+        <input type="checkbox" name="Others" id="Others">
+        <label for="Others">Others</label>
+        <br>
+        <label for="Qualification">QUALIFICATION</label> <br>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>S.N</th>
+                    <th>Examination</th>
+                    <th>Board</th>
+                    <th>Percentage</th>
+                    <th>Year of passing </th>
+                </tr>
+            </thead>
+            <tbody>
+                <td>1</td>
+                <td>CLass X</td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+                <tr>
+                    <td>2</td>
+                    <td>CLass XII</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Graduaction</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Masters</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>(10 char max)</td>
+                    <td>(upto 2 decimal)</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+            <tfoot>
+
+            </tfoot>
+        </table>
+        <lable for="Courses Applied for">Courses Applied For</lable> <br>
+
+        <label for="BCA">BCA</label>
+        <input type="radio" name="BCA" id="BCA" />
+        <label for="B.Com">B.Com</label>
+        <input type="radio" name="Bcom" id="Bcom" />
+        <label for="B.A">B.A</label>
+        <input type="radio" name="B.A" id="B.A" />
+        <br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+<html>
+
+<head>
+
+</head>
+<title>Login Form</title>
+
+<style>
+        
+    form{
+        width: 50%;
+        background-color: blueviolet;
+        margin: 5px auto;
+        padding: 40px;
+        border-radius: 5px;
+        border-style: ridge;
+
+    form {
+        width: 100%;
+        background-color: white;
+        margin: 0px auto;
+        padding: 40px;
+        border-radius: 5px;
+        border-style: hidden;
+
+    }
+}
+
+    form h1 {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    form h1 span {
+        color: black;
+    }
+
+    form label {
+        display: block;
+        margin-bottom: 5px;
+        color: gray;
+    }
+
+    form input {
+        width: 50%;
+        border: 1px solid grey;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    form .termAndcondition {
+        display: inline;
+    }
+
+    .termAndcondition {
+        width: fit-content;
+    }
+
+    button {
+        display: block;
+        width: 50%;
+        background-color: skyblue;
+        color: white;
+        padding: 10px 30px;
+        border: none;
+        margin-top: 50px;
+    }
+</style>
+
+
+
+<body>
+
+    <form action="" method="get ">
+        <h1>login</h1>
+        <label for="Email">Enter Email</label>
+        <input type="text" id="email" name="email" placeholder="email">
+        <label for="Password">Password</label>
+        <input type="text" id="Passord" name="Password" placeholder="Password">
+        <label for="Passord">Password</label>
+        <input class="termAndCondition" type="checkbox" name="showPassword" id="termAndCondition">
+        <label for=""> I accept all term and condition</label>
+        <button type="submit">Sign in</button>
+
+        <label for="Forgot">Forgot</label><a href="Forgot">Username/Password</a>
+        <label for="dont have and account">Don't have an account</label><a href="Don't have an account?">Sign up</a>
+
+    </form>
+
+</body>
+
+</html>
